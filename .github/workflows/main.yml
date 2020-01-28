@@ -2,7 +2,6 @@ name: publish_to_cocoapods
 
 on:
   release:
-  push:
     branches: 
       - master
     types: 
