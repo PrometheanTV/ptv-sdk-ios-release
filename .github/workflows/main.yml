@@ -9,15 +9,11 @@ on:
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
-
+    runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v2
-    
+    - uses: actions/checkout@v2    
     - name: Install Cocoapods
-      run: gem install cocoapods
-      
+      run: gem install cocoapods      
     - name: Deploy to Cocoapods
       run: |
         set -eo pipefail
