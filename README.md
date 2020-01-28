@@ -1,5 +1,5 @@
 # ptv-sdk-ios-release
-Hosts binaries for core PTVSDK for iOS as of v0.7.0.
+Hosts binaries for Promethean SDK for iOS.
 
 ## Installation
 
@@ -9,8 +9,8 @@ PTVSDK is available through [CocoaPods](http://cocoapods.org). To install it, si
 pod 'PTVSDK'
 ```
 
-The PTVSDK framework is developed in Swift and is delivered through a compiled binary. The standard CocoaPod package is built with the latest Xcode GM (Golden Master) Swift compiler for Mac OS X. To include a build compiled from an older version of Swift, or beta releases of Xcode, specify the Swift version using the CocoaPod subspec format.
+## Requirements
 
-```ruby
-pod 'PTVSDK/Swift5.0`
-```
+- Xcode 11 or newer
+
+See [documentation](https://docs.promethean.tv/developer-sdk/integration-guide-ios) for release information and integration guides.
