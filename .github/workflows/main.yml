@@ -3,7 +3,7 @@ name: publish_to_cocoapods
 on:
   release:
     types: 
-      - prereleased
+      - released
     tags:
       - '*'
 
