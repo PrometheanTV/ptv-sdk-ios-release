@@ -1,0 +1,124 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)
+// swift-module-flags: -target armv7-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PTVSDK
+import AVFoundation
+import Foundation
+@_exported import PTVSDK
+import Swift
+import UIKit
+import WebKit
+@objc public class PTVOverlayView : ObjectiveC.NSObject {
+  public func addOverlaysToPlayerView(playerView: UIKit.UIView?, overlayData: PTVSDKOverlayData)
+  public func disableOverlays()
+  public func enableOverlays()
+  public func hideOverlays(enableTap: Swift.Bool = false)
+  public func removeOverlays()
+  public func showOverlays(enableTap: Swift.Bool = true)
+  public func startOverlays()
+  public func stopOverlays()
+  public func timeUpdate(seconds: Swift.Double)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension PTVOverlayView : WebKit.WKNavigationDelegate {
+  @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: Swift.Error)
+  @objc dynamic public func webView(_ webView: WebKit.WKWebView, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
+}
+extension PTVOverlayView : WebKit.WKScriptMessageHandler {
+  @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+}
+extension PTVOverlayView : WebKit.WKUIDelegate {
+  @objc dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @objc dynamic public func webViewDidClose(_ webView: WebKit.WKWebView)
+}
+@objc public class PTVSDKOverlayData : ObjectiveC.NSObject {
+  public struct Platform {
+    public var id: Swift.String
+    public var name: Swift.String
+    public var type: Swift.String
+    public init(id: Swift.String, name: Swift.String, type: Swift.String)
+  }
+  public var apiHost: PTVSDKOverlayData.APIHost?
+  public var channelId: Swift.String?
+  public var debug: Swift.Bool?
+  public var enableGeoBlock: Swift.Bool?
+  public var env: PTVSDKOverlayData.Environment?
+  public var platformId: Swift.String?
+  public var platformName: Swift.String?
+  public var platformType: Swift.String?
+  public var previewMode: Swift.Bool?
+  public var streamId: Swift.String?
+  public var viewerId: Swift.String?
+  public var isComplete: Swift.Bool {
+    get
+  }
+  public var url: Foundation.URL? {
+    get
+  }
+  public init(channelId: Swift.String? = nil, streamId: Swift.String? = nil, platform: PTVSDKOverlayData.Platform? = nil, viewerId: Swift.String? = nil, apiHost: PTVSDKOverlayData.APIHost? = nil, debug: Swift.Bool? = false, enableGeoBlock: Swift.Bool? = false, env: PTVSDKOverlayData.Environment? = nil, previewMode: Swift.Bool? = false)
+  public enum APIHost {
+    case dev, comdev, qa, staging, production
+    public static let all: [PTVSDKOverlayData.APIHost]
+    public var index: Swift.Int {
+      get
+    }
+    public static func == (a: PTVSDKOverlayData.APIHost, b: PTVSDKOverlayData.APIHost) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
+  public enum Environment {
+    case dev, comdev, qa, staging, production
+    public static let all: [PTVSDKOverlayData.Environment]
+    public var index: Swift.Int {
+      get
+    }
+    public static func == (a: PTVSDKOverlayData.Environment, b: PTVSDKOverlayData.Environment) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+public class PTVSDK {
+  public static var DEBUG: Swift.Bool
+  public static var DEV: Swift.Bool
+  public static var currentTime: Swift.Double {
+    get
+    set
+  }
+  public static var isPlaying: Swift.Bool {
+    get
+    set
+  }
+  public static func monitorAVPlayer(player: AVFoundation.AVPlayer?)
+  public static func unmonitorAVPlayer()
+  public static func addOverlaysToPlayerView(playerView: UIKit.UIView?, overlayData: PTVSDKOverlayData)
+  public static func removeOverlays()
+  public static func disableOverlays()
+  public static func enableOverlays()
+  public static func hideOverlays(enableTap: Swift.Bool = false)
+  public static func showOverlays(enableTap: Swift.Bool = true)
+  public static func startOverlays()
+  public static func stopOverlays()
+  public static func timeUpdate(seconds: Swift.Double)
+  @objc deinit
+}
+@objc public class PTVPlayerObserver : ObjectiveC.NSObject {
+  @objc deinit
+  public func monitorAVPlayer(_ player: AVFoundation.AVPlayer?)
+  public func monitorAVPlayerLayer(_ playerLayer: AVFoundation.AVPlayerLayer?)
+  public func unmonitorAVPlayer()
+  public func destroyObservers()
+  @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @objc override dynamic public init()
+}
+extension PTVSDKOverlayData.APIHost : Swift.Equatable {}
+extension PTVSDKOverlayData.APIHost : Swift.Hashable {}
+extension PTVSDKOverlayData.Environment : Swift.Equatable {}
+extension PTVSDKOverlayData.Environment : Swift.Hashable {}
