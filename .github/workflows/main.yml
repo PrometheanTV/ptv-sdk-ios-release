@@ -1,12 +1,8 @@
 name: publish pod
 on:
   release:
-    branches: 
-      - master
     types: 
       - released
-    tags:
-      - '*'
 jobs:
   deploy:
     runs-on: macos-latest
