@@ -1,5 +1,4 @@
 name: publish pod
-
 on:
   release:
     branches: 
@@ -8,7 +7,6 @@ on:
       - released
     tags:
       - '*'
-
 jobs:
   deploy:
     runs-on: macos-latest
