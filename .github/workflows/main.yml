@@ -1,4 +1,4 @@
-name: publish_to_cocoapods
+name: publish pod
 
 on:
   release:
