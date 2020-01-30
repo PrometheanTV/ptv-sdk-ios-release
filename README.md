@@ -1,7 +1,8 @@
-# ptv-sdk-ios-release
-Hosts binaries for Promethean SDK for iOS.
+# PTVSDK for iOS
 
 [![publish pod](https://github.com/PrometheanTV/ptv-sdk-ios-release/workflows/publish%20pod/badge.svg)](https://github.com/PrometheanTV/ptv-sdk-ios-release/actions?query=workflow%3A%22publish+pod%22)
+
+Hosts binaries for Promethean SDK for iOS.
 
 ## Installation
 
