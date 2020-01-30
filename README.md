@@ -1,6 +1,8 @@
 # ptv-sdk-ios-release
 Hosts binaries for Promethean SDK for iOS.
 
+[![publish pod](https://github.com/PrometheanTV/ptv-sdk-ios-release/workflows/publish%20pod/badge.svg)](https://github.com/PrometheanTV/ptv-sdk-ios-release/actions?query=workflow%3A%22publish+pod%22)
+
 ## Installation
 
 PTVSDK is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
