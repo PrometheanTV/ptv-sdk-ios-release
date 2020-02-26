@@ -88,6 +88,7 @@ extension PTVOverlayView : WebKit.WKUIDelegate {
 public class PTVSDK {
   public static var DEBUG: Swift.Bool
   public static var DEV: Swift.Bool
+  public static var onConfigReady: ((PTVSDKConfigData) -> ())?
   public static var currentTime: Swift.Double {
     get
     set
@@ -107,6 +108,22 @@ public class PTVSDK {
   public static func startOverlays()
   public static func stopOverlays()
   public static func timeUpdate(seconds: Swift.Double)
+  @objc deinit
+}
+public struct PTVSDKStreamSource : Swift.Hashable {
+  public var mimeType: Swift.String?
+  public var url: Foundation.URL?
+  public init(_ data: Swift.Dictionary<Swift.String, Any>?)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: PTVSDKStreamSource, b: PTVSDKStreamSource) -> Swift.Bool
+}
+@objc public class PTVSDKConfigData : ObjectiveC.NSObject {
+  public var sources: [PTVSDKStreamSource]?
+  public init(data: Swift.Dictionary<Swift.String, Any>?)
+  @objc override dynamic public init()
   @objc deinit
 }
 @objc public class PTVPlayerObserver : ObjectiveC.NSObject {

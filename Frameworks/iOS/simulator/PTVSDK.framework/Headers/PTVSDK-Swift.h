@@ -248,6 +248,13 @@ SWIFT_CLASS("_TtC6PTVSDK17PTVPlayerObserver")
 @end
 
 
+SWIFT_CLASS("_TtC6PTVSDK16PTVSDKConfigData")
+@interface PTVSDKConfigData : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC6PTVSDK17PTVSDKOverlayData")
 @interface PTVSDKOverlayData : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -511,6 +518,13 @@ SWIFT_CLASS("_TtC6PTVSDK17PTVPlayerObserver")
 @interface PTVPlayerObserver : NSObject
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC6PTVSDK16PTVSDKConfigData")
+@interface PTVSDKConfigData : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 

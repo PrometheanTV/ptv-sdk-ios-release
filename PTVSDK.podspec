@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                          = 'PTVSDK'
 
-  s.version                       = ENV['LIB_VERSION'] || '0.9.0'
+  s.version                       = ENV['LIB_VERSION'] || '0.10.0'
   s.source                        = { :git => 'https://github.com/PrometheanTV/ptv-sdk-ios-release.git', 
                                       :tag => "v#{s.version.to_s}" }
 
