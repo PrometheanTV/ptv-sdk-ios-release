@@ -247,16 +247,79 @@ SWIFT_CLASS("_TtC6PTVSDK17PTVPlayerObserver")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class PTVSDKConfigData;
+@class AVPlayer;
+@class UIView;
+@class PTVSDKOverlayData;
+
+SWIFT_CLASS("_TtC6PTVSDK6PTVSDK")
+@interface PTVSDK : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onConfigReady)(PTVSDKConfigData * _Nonnull);)
++ (void (^ _Nullable)(PTVSDKConfigData * _Nonnull))onConfigReady SWIFT_WARN_UNUSED_RESULT;
++ (void)setOnConfigReady:(void (^ _Nullable)(PTVSDKConfigData * _Nonnull))value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double currentTime;)
++ (double)currentTime SWIFT_WARN_UNUSED_RESULT;
++ (void)setCurrentTime:(double)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isPlaying;)
++ (BOOL)isPlaying SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsPlaying:(BOOL)newValue;
++ (void)monitorAVPlayerWithPlayer:(AVPlayer * _Nullable)player;
++ (void)unmonitorAVPlayer;
++ (void)addOverlaysToPlayerViewWithPlayerView:(UIView * _Nullable)playerView overlayData:(PTVSDKOverlayData * _Nonnull)overlayData;
++ (void)removeOverlays;
++ (void)disableOverlays;
++ (void)enableOverlays;
++ (void)hideOverlaysWithEnableTap:(BOOL)enableTap;
++ (void)showOverlaysWithEnableTap:(BOOL)enableTap;
++ (void)startOverlays;
++ (void)stopOverlays;
++ (void)timeUpdateWithSeconds:(double)seconds;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class PTVSDKStreamSource;
 
 SWIFT_CLASS("_TtC6PTVSDK16PTVSDKConfigData")
 @interface PTVSDKConfigData : NSObject
+@property (nonatomic, copy) NSArray<PTVSDKStreamSource *> * _Nullable sources;
+- (nonnull instancetype)initWithData:(NSDictionary<NSString *, id> * _Nullable)data OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class PTVSDKOverlayDataPlatform;
 
 SWIFT_CLASS("_TtC6PTVSDK17PTVSDKOverlayData")
 @interface PTVSDKOverlayData : NSObject
+@property (nonatomic, copy) NSString * _Nullable channelId;
+@property (nonatomic, copy) NSString * _Nullable platformId;
+@property (nonatomic, copy) NSString * _Nullable platformName;
+@property (nonatomic, copy) NSString * _Nullable platformType;
+@property (nonatomic, copy) NSString * _Nullable streamId;
+@property (nonatomic, copy) NSString * _Nullable viewerId;
+@property (nonatomic, readonly) BOOL isComplete;
+- (nonnull instancetype)initWithChannelId:(NSString * _Nullable)channelId streamId:(NSString * _Nullable)streamId;
+- (nonnull instancetype)initWithPlatform:(PTVSDKOverlayDataPlatform * _Nullable)platform;
+@property (nonatomic, readonly, copy) NSURL * _Nullable url;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC6PTVSDK25PTVSDKOverlayDataPlatform")
+@interface PTVSDKOverlayDataPlatform : NSObject
+@property (nonatomic, copy) NSString * _Nullable id;
+@property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic, copy) NSString * _Nullable type;
+- (nonnull instancetype)initWithId:(NSString * _Nonnull)id name:(NSString * _Nonnull)name type:(NSString * _Nonnull)type;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC6PTVSDK18PTVSDKStreamSource")
+@interface PTVSDKStreamSource : NSObject
+@property (nonatomic, copy) NSString * _Nullable mimeType;
+@property (nonatomic, copy) NSURL * _Nullable url;
+- (nonnull instancetype)init:(NSDictionary<NSString *, id> * _Nullable)data OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -520,16 +583,79 @@ SWIFT_CLASS("_TtC6PTVSDK17PTVPlayerObserver")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class PTVSDKConfigData;
+@class AVPlayer;
+@class UIView;
+@class PTVSDKOverlayData;
+
+SWIFT_CLASS("_TtC6PTVSDK6PTVSDK")
+@interface PTVSDK : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) void (^ _Nullable onConfigReady)(PTVSDKConfigData * _Nonnull);)
++ (void (^ _Nullable)(PTVSDKConfigData * _Nonnull))onConfigReady SWIFT_WARN_UNUSED_RESULT;
++ (void)setOnConfigReady:(void (^ _Nullable)(PTVSDKConfigData * _Nonnull))value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) double currentTime;)
++ (double)currentTime SWIFT_WARN_UNUSED_RESULT;
++ (void)setCurrentTime:(double)newValue;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isPlaying;)
++ (BOOL)isPlaying SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsPlaying:(BOOL)newValue;
++ (void)monitorAVPlayerWithPlayer:(AVPlayer * _Nullable)player;
++ (void)unmonitorAVPlayer;
++ (void)addOverlaysToPlayerViewWithPlayerView:(UIView * _Nullable)playerView overlayData:(PTVSDKOverlayData * _Nonnull)overlayData;
++ (void)removeOverlays;
++ (void)disableOverlays;
++ (void)enableOverlays;
++ (void)hideOverlaysWithEnableTap:(BOOL)enableTap;
++ (void)showOverlaysWithEnableTap:(BOOL)enableTap;
++ (void)startOverlays;
++ (void)stopOverlays;
++ (void)timeUpdateWithSeconds:(double)seconds;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class PTVSDKStreamSource;
 
 SWIFT_CLASS("_TtC6PTVSDK16PTVSDKConfigData")
 @interface PTVSDKConfigData : NSObject
+@property (nonatomic, copy) NSArray<PTVSDKStreamSource *> * _Nullable sources;
+- (nonnull instancetype)initWithData:(NSDictionary<NSString *, id> * _Nullable)data OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class PTVSDKOverlayDataPlatform;
 
 SWIFT_CLASS("_TtC6PTVSDK17PTVSDKOverlayData")
 @interface PTVSDKOverlayData : NSObject
+@property (nonatomic, copy) NSString * _Nullable channelId;
+@property (nonatomic, copy) NSString * _Nullable platformId;
+@property (nonatomic, copy) NSString * _Nullable platformName;
+@property (nonatomic, copy) NSString * _Nullable platformType;
+@property (nonatomic, copy) NSString * _Nullable streamId;
+@property (nonatomic, copy) NSString * _Nullable viewerId;
+@property (nonatomic, readonly) BOOL isComplete;
+- (nonnull instancetype)initWithChannelId:(NSString * _Nullable)channelId streamId:(NSString * _Nullable)streamId;
+- (nonnull instancetype)initWithPlatform:(PTVSDKOverlayDataPlatform * _Nullable)platform;
+@property (nonatomic, readonly, copy) NSURL * _Nullable url;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC6PTVSDK25PTVSDKOverlayDataPlatform")
+@interface PTVSDKOverlayDataPlatform : NSObject
+@property (nonatomic, copy) NSString * _Nullable id;
+@property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic, copy) NSString * _Nullable type;
+- (nonnull instancetype)initWithId:(NSString * _Nonnull)id name:(NSString * _Nonnull)name type:(NSString * _Nonnull)type;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC6PTVSDK18PTVSDKStreamSource")
+@interface PTVSDKStreamSource : NSObject
+@property (nonatomic, copy) NSString * _Nullable mimeType;
+@property (nonatomic, copy) NSURL * _Nullable url;
+- (nonnull instancetype)init:(NSDictionary<NSString *, id> * _Nullable)data OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
