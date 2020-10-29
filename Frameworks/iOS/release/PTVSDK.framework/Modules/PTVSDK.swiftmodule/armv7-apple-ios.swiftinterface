@@ -54,10 +54,11 @@ extension PTVOverlayView : WebKit.WKUIDelegate {
   public var previewMode: Swift.Bool?
   @objc public var streamId: Swift.String?
   @objc public var viewerId: Swift.String?
+  public var viewerLocation: PTVSDK.PTVSDKOverlayData.Location?
   @objc public var isComplete: Swift.Bool {
     @objc get
   }
-  convenience public init(channelId: Swift.String? = nil, streamId: Swift.String? = nil, platform: PTVSDK.PTVSDKOverlayData.Platform? = nil, viewerId: Swift.String? = nil, apiHost: PTVSDK.PTVSDKOverlayData.APIHost? = nil, debug: Swift.Bool? = false, enableGeoBlock: Swift.Bool? = false, env: PTVSDK.PTVSDKOverlayData.Environment? = nil, previewMode: Swift.Bool? = false)
+  convenience public init(channelId: Swift.String? = nil, streamId: Swift.String? = nil, platform: PTVSDK.PTVSDKOverlayData.Platform? = nil, viewerId: Swift.String? = nil, viewerLocation: PTVSDK.PTVSDKOverlayData.Location? = nil, apiHost: PTVSDK.PTVSDKOverlayData.APIHost? = nil, debug: Swift.Bool? = false, enableGeoBlock: Swift.Bool? = false, env: PTVSDK.PTVSDKOverlayData.Environment? = nil, previewMode: Swift.Bool? = false)
   @objc convenience public init(channelId: Swift.String?, streamId: Swift.String?)
   @objc convenience public init(platform: PTVSDK.PTVSDKOverlayData.Platform?)
   @objc public var url: Foundation.URL? {
@@ -86,6 +87,11 @@ extension PTVOverlayView : WebKit.WKUIDelegate {
       get
     }
     public func hash(into hasher: inout Swift.Hasher)
+  }
+  public struct Location {
+    public var latitude: Swift.Double
+    public var longitude: Swift.Double
+    public init(latitude: Swift.Double, longitude: Swift.Double)
   }
   @objc override dynamic public init()
   @objc deinit
