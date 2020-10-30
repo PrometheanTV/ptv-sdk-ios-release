@@ -17,5 +17,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks       = 'Frameworks/iOS/fat/PTVSDK.framework'
   s.ios.frameworks                = 'AVFoundation', 'UIKit', 'WebKit'
   s.swift_versions                = ['4.0', '4.2', '5.0']
-
+  
+  s.pod_target_xcconfig           = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig          = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
