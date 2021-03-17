@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                          = 'PTVSDK'
 
-  s.version                       = ENV['LIB_VERSION'] || '0.12.0'
+  s.version                       = ENV['LIB_VERSION'] || '0.11.0'
   s.source                        = { :git => 'https://github.com/PrometheanTV/ptv-sdk-ios-release.git', 
                                       :tag => "v#{s.version.to_s}" }
 
@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.ios.frameworks                = 'AVFoundation', 'UIKit', 'WebKit'
   s.swift_versions                = ['4.0', '4.2', '5.0']
   
-  s.pod_target_xcconfig           = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig          = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig           = { 'ARCHS' => '${STANDARD_ARCHES}' }
+  s.user_target_xcconfig          = { 'ARCHS' => '${STANDARD_ARCHES}' }
+
 end

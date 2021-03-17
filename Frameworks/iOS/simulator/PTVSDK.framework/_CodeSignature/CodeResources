@@ -4,65 +4,61 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/PTVSDK-Swift.h</key>
-		<data>
-		t4u0ycOul9jniGXr5i2K3m6XOYU=
-		</data>
 		<key>Headers/PTVSDK.h</key>
 		<data>
 		ZI7oeNAPfKZ2nVP4TlcYOaw9fi8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		06p+4WdZ/KDHbmiOe2yPdeK2OlE=
+		9M4E8wnHEaWjCHiHe/+oBDdWFhs=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jOzLccI9bGJ86mai6xMEQhD/kNw=
+		LTG48drN1kzQZ7TXFRQ3k/PwQCs=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IuuIQLDabik68FcNTkF7Ud4u8eM=
+		H/v5To/ciav5g2Y7CkLF1BblNmU=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8ztbGFyXJjheVli/Ta130Vb7xRE=
+		WMY/SoXxwlI597tQGgdB2LodbQs=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
-		jOzLccI9bGJ86mai6xMEQhD/kNw=
+		LTG48drN1kzQZ7TXFRQ3k/PwQCs=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/i386.swiftinterface</key>
 		<data>
-		IuuIQLDabik68FcNTkF7Ud4u8eM=
+		H/v5To/ciav5g2Y7CkLF1BblNmU=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		8ztbGFyXJjheVli/Ta130Vb7xRE=
+		WMY/SoXxwlI597tQGgdB2LodbQs=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/ISJSTRdjgA2lkL08Z3Wbqs+64w=
+		zMSzwRLMB6iyCMTwsP/sy2Td6ek=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EmigAtBNW9qx4xOvZ6HXXHX3XKM=
+		DQey9X4fuPDwX7aIDqoE9IdTUQs=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UIebhr5YwUnmrGEHwDzRGraw3Oc=
+		+wskKQ8lN3b/JfefKQj49iHCMWs=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		/ISJSTRdjgA2lkL08Z3Wbqs+64w=
+		zMSzwRLMB6iyCMTwsP/sy2Td6ek=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		EmigAtBNW9qx4xOvZ6HXXHX3XKM=
+		DQey9X4fuPDwX7aIDqoE9IdTUQs=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		UIebhr5YwUnmrGEHwDzRGraw3Oc=
+		+wskKQ8lN3b/JfefKQj49iHCMWs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,17 +67,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/PTVSDK-Swift.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			t4u0ycOul9jniGXr5i2K3m6XOYU=
-			</data>
-			<key>hash2</key>
-			<data>
-			hg/VyzXGH0Va+cqLCaIkmbXsGMQKfzwnXkWtuFplyCE=
-			</data>
-		</dict>
 		<key>Headers/PTVSDK.h</key>
 		<dict>
 			<key>hash</key>
@@ -97,132 +82,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jOzLccI9bGJ86mai6xMEQhD/kNw=
+			LTG48drN1kzQZ7TXFRQ3k/PwQCs=
 			</data>
 			<key>hash2</key>
 			<data>
-			IV+IUy9NgMONpFgFhId/01mR43PCngXGA2fSanJGHeI=
+			yrc8gBSJ8g94FmPqMmT/iHeQs7iHv9ciB6wjD0X5wkM=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IuuIQLDabik68FcNTkF7Ud4u8eM=
+			H/v5To/ciav5g2Y7CkLF1BblNmU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ijBU6mIZ6mFjR5bIxmJoqYshoEBkTGsJNldsu7WbWB8=
+			D3XeWshJDPJzgyOBikozA6uY2R0kxtT5wwrCbqxwk1w=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8ztbGFyXJjheVli/Ta130Vb7xRE=
+			WMY/SoXxwlI597tQGgdB2LodbQs=
 			</data>
 			<key>hash2</key>
 			<data>
-			qW2QYORUB4EiaQ4eoPpgyPpA8EtqlNOlZUQhpWplaUg=
+			jBhKwOyC+qqcxwPO90u2xnIsXeu6gu77dtSIQ3A2oUM=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jOzLccI9bGJ86mai6xMEQhD/kNw=
+			LTG48drN1kzQZ7TXFRQ3k/PwQCs=
 			</data>
 			<key>hash2</key>
 			<data>
-			IV+IUy9NgMONpFgFhId/01mR43PCngXGA2fSanJGHeI=
+			yrc8gBSJ8g94FmPqMmT/iHeQs7iHv9ciB6wjD0X5wkM=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IuuIQLDabik68FcNTkF7Ud4u8eM=
+			H/v5To/ciav5g2Y7CkLF1BblNmU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ijBU6mIZ6mFjR5bIxmJoqYshoEBkTGsJNldsu7WbWB8=
+			D3XeWshJDPJzgyOBikozA6uY2R0kxtT5wwrCbqxwk1w=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8ztbGFyXJjheVli/Ta130Vb7xRE=
+			WMY/SoXxwlI597tQGgdB2LodbQs=
 			</data>
 			<key>hash2</key>
 			<data>
-			qW2QYORUB4EiaQ4eoPpgyPpA8EtqlNOlZUQhpWplaUg=
+			jBhKwOyC+qqcxwPO90u2xnIsXeu6gu77dtSIQ3A2oUM=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/ISJSTRdjgA2lkL08Z3Wbqs+64w=
+			zMSzwRLMB6iyCMTwsP/sy2Td6ek=
 			</data>
 			<key>hash2</key>
 			<data>
-			2y4r+ofhN2HyCYenFev7cYgLDGzZdFvAbA0wv7+eyJQ=
+			daTm39gOE47/5iDgBQblrRb2HiF3ZIqmzPdcosFLxWA=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EmigAtBNW9qx4xOvZ6HXXHX3XKM=
+			DQey9X4fuPDwX7aIDqoE9IdTUQs=
 			</data>
 			<key>hash2</key>
 			<data>
-			ckQoNWL1FefJtaFtRdXhwVddGKIPydfT18/ItjZLzig=
+			1N3iLAA6rfT+pB2EqYA9gsAau0FfQ/IwMIockTeaS4Q=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UIebhr5YwUnmrGEHwDzRGraw3Oc=
+			+wskKQ8lN3b/JfefKQj49iHCMWs=
 			</data>
 			<key>hash2</key>
 			<data>
-			WpXcNpGTOPmK8s7wlRxPvYmT/vh4TQvPnuok4vEx9ME=
+			BBxxp4KnFz1I4rK0I2mVEvQuCXHN4GIi4yFXJCouS14=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/ISJSTRdjgA2lkL08Z3Wbqs+64w=
+			zMSzwRLMB6iyCMTwsP/sy2Td6ek=
 			</data>
 			<key>hash2</key>
 			<data>
-			2y4r+ofhN2HyCYenFev7cYgLDGzZdFvAbA0wv7+eyJQ=
+			daTm39gOE47/5iDgBQblrRb2HiF3ZIqmzPdcosFLxWA=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EmigAtBNW9qx4xOvZ6HXXHX3XKM=
+			DQey9X4fuPDwX7aIDqoE9IdTUQs=
 			</data>
 			<key>hash2</key>
 			<data>
-			ckQoNWL1FefJtaFtRdXhwVddGKIPydfT18/ItjZLzig=
+			1N3iLAA6rfT+pB2EqYA9gsAau0FfQ/IwMIockTeaS4Q=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UIebhr5YwUnmrGEHwDzRGraw3Oc=
+			+wskKQ8lN3b/JfefKQj49iHCMWs=
 			</data>
 			<key>hash2</key>
 			<data>
-			WpXcNpGTOPmK8s7wlRxPvYmT/vh4TQvPnuok4vEx9ME=
+			BBxxp4KnFz1I4rK0I2mVEvQuCXHN4GIi4yFXJCouS14=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

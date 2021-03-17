@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PTVSDK-Swift.h</key>
 		<data>
-		FcsFfbOejp+HLevVjWzu6TBKc8A=
+		1nDDTET8pveJ60nPY+H3gSLAH4w=
 		</data>
 		<key>Headers/PTVSDK.h</key>
 		<data>
@@ -14,67 +14,67 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+pSmyVTKDUJQC6YbbVBYl0z84vk=
+		8bNRBWYU3j7Jz5fnqyvkwdfdfCU=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
-		0xS6asbTC4f6CmGbsLoG46sv8eI=
+		FMGoIXh/TZH6vpGeL8x8qRwyUaQ=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/arm.swiftinterface</key>
 		<data>
-		09I5HSmCQu88M/sqEgfAeFMRpHI=
+		pzkMVaZWTlsNHR6YQF0zE0TqzUw=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		+r0QE3xAknPAP36uEZ1rD1C27CU=
+		buAPWXF5FERlqpSqMGQLzWc1vYY=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		I5M+0Ac4cFe1wfNWzVQhPKL/3JY=
+		K9i/zhumb1DANa6mrF+fqzebekA=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		BLZxVZ5rE1yjBy9wCZyXHyAkr4A=
+		I4StgSqc/PR2onW/ZpcrLGC6pZ0=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jGLPBPDs1VxFWpmqbESFUc3vBcc=
+		JovQC0RrBgpGfEG1hOoz5PJwwIw=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		I5M+0Ac4cFe1wfNWzVQhPKL/3JY=
+		K9i/zhumb1DANa6mrF+fqzebekA=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		BLZxVZ5rE1yjBy9wCZyXHyAkr4A=
+		I4StgSqc/PR2onW/ZpcrLGC6pZ0=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		jGLPBPDs1VxFWpmqbESFUc3vBcc=
+		JovQC0RrBgpGfEG1hOoz5PJwwIw=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		0xS6asbTC4f6CmGbsLoG46sv8eI=
+		FMGoIXh/TZH6vpGeL8x8qRwyUaQ=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<data>
-		09I5HSmCQu88M/sqEgfAeFMRpHI=
+		pzkMVaZWTlsNHR6YQF0zE0TqzUw=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		+r0QE3xAknPAP36uEZ1rD1C27CU=
+		buAPWXF5FERlqpSqMGQLzWc1vYY=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		0xS6asbTC4f6CmGbsLoG46sv8eI=
+		FMGoIXh/TZH6vpGeL8x8qRwyUaQ=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/armv7.swiftinterface</key>
 		<data>
-		09I5HSmCQu88M/sqEgfAeFMRpHI=
+		pzkMVaZWTlsNHR6YQF0zE0TqzUw=
 		</data>
 		<key>Modules/PTVSDK.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		+r0QE3xAknPAP36uEZ1rD1C27CU=
+		buAPWXF5FERlqpSqMGQLzWc1vYY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,11 +87,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FcsFfbOejp+HLevVjWzu6TBKc8A=
+			1nDDTET8pveJ60nPY+H3gSLAH4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			/jNXxcW1NXFZo1EiFS6vnsrisMgRzYw/muhoXkRikQk=
+			rai89unV4OtBTqp0jEvr1S4coqRo2pWFxGRZOemQTz4=
 			</data>
 		</dict>
 		<key>Headers/PTVSDK.h</key>
@@ -109,165 +109,165 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0xS6asbTC4f6CmGbsLoG46sv8eI=
+			FMGoIXh/TZH6vpGeL8x8qRwyUaQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			TimwEAdgSphnmQcgibFmU3cDu49RqZMA8GBi3eRKWQQ=
+			91p4ceayUcQQy0F4qgd103afv6IxDUC2lCREXC/TQdI=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/arm.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			09I5HSmCQu88M/sqEgfAeFMRpHI=
+			pzkMVaZWTlsNHR6YQF0zE0TqzUw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Otedv2/gUgoh3yjmmbc0uqbx1kz5Zn6HvkFvUKVSLcU=
+			umO+q+3HmLJHumJH+7bVtkseiEzqFhb3+P0LSGVbukc=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+r0QE3xAknPAP36uEZ1rD1C27CU=
+			buAPWXF5FERlqpSqMGQLzWc1vYY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ckvU4LjEeuRdgyLnOoM0xIUXekAWS2q+ooZxZFY0Wq0=
+			McveZo2BQ7JRYpxcW0gE8FukmM3dhbUSzMSqNRmUqYM=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I5M+0Ac4cFe1wfNWzVQhPKL/3JY=
+			K9i/zhumb1DANa6mrF+fqzebekA=
 			</data>
 			<key>hash2</key>
 			<data>
-			bE8tFoclct6XPs6KE4oNl1/TEu8n8qt+e2uXgdCMigc=
+			by9c60SJ1kKJ1cu9E+DvGV5xU4g5KqveWstx7JFKTm0=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BLZxVZ5rE1yjBy9wCZyXHyAkr4A=
+			I4StgSqc/PR2onW/ZpcrLGC6pZ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			165ES4hlU9ftemPlhs/5m2pBU4e11n7OQdZX9+K+UtI=
+			QJucHtovZ2YIO+hBChTz0WwIBBDVZG0uFM/LX7mSuB8=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jGLPBPDs1VxFWpmqbESFUc3vBcc=
+			JovQC0RrBgpGfEG1hOoz5PJwwIw=
 			</data>
 			<key>hash2</key>
 			<data>
-			5saHwkQbpOFsCqGdbqixiQ2+lICBM13OkljTDevrRK4=
+			YiHTXXUGd4iN7F5Lx7dZAr6gKuS2GXWJyxHETdHbMEU=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I5M+0Ac4cFe1wfNWzVQhPKL/3JY=
+			K9i/zhumb1DANa6mrF+fqzebekA=
 			</data>
 			<key>hash2</key>
 			<data>
-			bE8tFoclct6XPs6KE4oNl1/TEu8n8qt+e2uXgdCMigc=
+			by9c60SJ1kKJ1cu9E+DvGV5xU4g5KqveWstx7JFKTm0=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BLZxVZ5rE1yjBy9wCZyXHyAkr4A=
+			I4StgSqc/PR2onW/ZpcrLGC6pZ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			165ES4hlU9ftemPlhs/5m2pBU4e11n7OQdZX9+K+UtI=
+			QJucHtovZ2YIO+hBChTz0WwIBBDVZG0uFM/LX7mSuB8=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jGLPBPDs1VxFWpmqbESFUc3vBcc=
+			JovQC0RrBgpGfEG1hOoz5PJwwIw=
 			</data>
 			<key>hash2</key>
 			<data>
-			5saHwkQbpOFsCqGdbqixiQ2+lICBM13OkljTDevrRK4=
+			YiHTXXUGd4iN7F5Lx7dZAr6gKuS2GXWJyxHETdHbMEU=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0xS6asbTC4f6CmGbsLoG46sv8eI=
+			FMGoIXh/TZH6vpGeL8x8qRwyUaQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			TimwEAdgSphnmQcgibFmU3cDu49RqZMA8GBi3eRKWQQ=
+			91p4ceayUcQQy0F4qgd103afv6IxDUC2lCREXC/TQdI=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			09I5HSmCQu88M/sqEgfAeFMRpHI=
+			pzkMVaZWTlsNHR6YQF0zE0TqzUw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Otedv2/gUgoh3yjmmbc0uqbx1kz5Zn6HvkFvUKVSLcU=
+			umO+q+3HmLJHumJH+7bVtkseiEzqFhb3+P0LSGVbukc=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+r0QE3xAknPAP36uEZ1rD1C27CU=
+			buAPWXF5FERlqpSqMGQLzWc1vYY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ckvU4LjEeuRdgyLnOoM0xIUXekAWS2q+ooZxZFY0Wq0=
+			McveZo2BQ7JRYpxcW0gE8FukmM3dhbUSzMSqNRmUqYM=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0xS6asbTC4f6CmGbsLoG46sv8eI=
+			FMGoIXh/TZH6vpGeL8x8qRwyUaQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			TimwEAdgSphnmQcgibFmU3cDu49RqZMA8GBi3eRKWQQ=
+			91p4ceayUcQQy0F4qgd103afv6IxDUC2lCREXC/TQdI=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/armv7.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			09I5HSmCQu88M/sqEgfAeFMRpHI=
+			pzkMVaZWTlsNHR6YQF0zE0TqzUw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Otedv2/gUgoh3yjmmbc0uqbx1kz5Zn6HvkFvUKVSLcU=
+			umO+q+3HmLJHumJH+7bVtkseiEzqFhb3+P0LSGVbukc=
 			</data>
 		</dict>
 		<key>Modules/PTVSDK.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+r0QE3xAknPAP36uEZ1rD1C27CU=
+			buAPWXF5FERlqpSqMGQLzWc1vYY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ckvU4LjEeuRdgyLnOoM0xIUXekAWS2q+ooZxZFY0Wq0=
+			McveZo2BQ7JRYpxcW0gE8FukmM3dhbUSzMSqNRmUqYM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
