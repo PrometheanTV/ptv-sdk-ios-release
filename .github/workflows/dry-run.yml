@@ -1,0 +1,16 @@
+name: publish-dry-run
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
+  push:
+    branches:
+      - test/dry-run
+  pull_request:
+    branches:
+      - release/**
+      - test/**
+jobs:
+  test-run
+  runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello"
