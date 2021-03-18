@@ -10,7 +10,7 @@ on:
       - release/**
       - test/**
 jobs:
-  test-run
-  runs-on: ubuntu-latest
+  test-run:
+    runs-on: ubuntu-latest
     steps:
       - run: echo "hello"
