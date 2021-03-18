@@ -24,5 +24,6 @@ jobs:
           export LIB_VERSION=${GITHUB_REF:11}
           echo ${GITHUB_REF##*/}
           echo $LIB_VERSION
+          export LIB_VERSION=0.12.1
           pod lib lint --allow-warnings
-          pod trunk push --allow-warnings
+          pod trunk push --allow-warnings --verbose
