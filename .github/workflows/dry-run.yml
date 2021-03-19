@@ -25,10 +25,12 @@ jobs:
           COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
           DEVELOPER_DIR: /Applications/Xcode_11.7.app/Contents/Developer
           ARCHS_STANDARD: arm64 arm64e armv7 armv7s x86_64
+          ARCHS: ${ARCHS_STANDARD}
           LIB_VERSION: ${GITHUB_REF##*/}
         run: |
           set -eo pipefail
           export LIB_VERSION=0.12.1
           echo "standard arches ${ARCHS_STANDARD}"
+          echo "arches ${ARCHS}"
           pod lib lint --allow-warnings --verbose
           pod trunk push --allow-warnings ----local-only --verbose 
