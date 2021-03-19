@@ -24,5 +24,6 @@ jobs:
           set -eo pipefail
           export LIB_VERSION=${GITHUB_REF##*/}
           export LIB_VERSION=0.12.1
+          echo "standard arches ${STANDARD_ARCHES}"
           pod lib lint --allow-warnings --verbose
           pod trunk push --allow-warnings ----local-only --verbose 
