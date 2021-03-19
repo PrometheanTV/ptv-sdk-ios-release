@@ -14,7 +14,7 @@ jobs:
     runs-on: macos-latest
     env:
       ARCHS_STANDARD: arm64 arm64e armv7 armv7s x86_64
-      ARCHS: ${ARCHS_STANDARD}
+      ARCHS: arm64 arm64e armv7 armv7s x86_64
     steps:
       - uses: actions/checkout@v2    
       - name: Install Cocoapods
