@@ -30,5 +30,6 @@ jobs:
           export LIB_VERSION=0.12.1
           echo "standard arches ${ARCHS_STANDARD}"
           echo "valid arches ${ARCHS_VALID}"
+          export ARCHS_STANDARD=arm64 arm64e armv7 armv7s x86_64
           pod lib lint --allow-warnings --verbose
           pod trunk push --allow-warnings ----local-only --verbose 
