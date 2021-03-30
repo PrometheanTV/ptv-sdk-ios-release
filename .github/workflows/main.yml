@@ -1,14 +1,8 @@
-name: publish
+name: publish pod
 on:
-  # Trigger the workflow on push or pull request,
-  # but only for the main branch
-  push:
-    branches:
-      - test/dry-run
-  pull_request:
-    branches:
-      - release/**
-      - test/**
+  release:
+    types: 
+      - released
 jobs:
   deploy-dry-run:
     runs-on: macos-latest
