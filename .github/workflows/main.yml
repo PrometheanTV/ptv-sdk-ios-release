@@ -4,7 +4,7 @@ on:
     types: 
       - released
 jobs:
-  deploy-dry-run:
+  deploy:
     runs-on: macos-latest
     env:
       ARCHS_STANDARD: arm64 arm64e armv7 armv7s x86_64
