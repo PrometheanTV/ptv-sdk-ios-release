@@ -34,4 +34,3 @@ jobs:
           echo "standard arches ${ARCHS_STANDARD}"
           echo "arches ${ARCHS}"
           pod lib lint --allow-warnings --skip-tests --verbose
-          pod trunk push --allow-warnings ----local-only --verbose 
