@@ -30,7 +30,7 @@ jobs:
           LIB_VERSION: ${GITHUB_REF##*/}
         run: |
           set -eo pipefail
-          #export LIB_VERSION=0.12.1
-          #echo "standard arches ${ARCHS_STANDARD}"
-          #echo "arches ${ARCHS}"
+          export LIB_VERSION=0.12.1
+          echo "standard arches ${ARCHS_STANDARD}"
+          echo "arches ${ARCHS}"
           pod lib lint --allow-warnings --skip-tests --verbose
