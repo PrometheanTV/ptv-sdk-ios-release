@@ -30,4 +30,5 @@ jobs:
         run: |
           set -eo pipefail
           export LIB_VERSION=${GITHUB_REF:11}
+          echo "LIB_VERSION ${LIB_VERSION}"
           pod lib lint --allow-warnings --verbose
