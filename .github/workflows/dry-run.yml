@@ -33,4 +33,4 @@ jobs:
           export LIB_VERSION=0.12.1
           echo "standard arches ${ARCHS_STANDARD}"
           echo "arches ${ARCHS}"
-          pod lib lint --allow-warnings --skip-tests --verbose
+          pod lib lint --allow-warnings --verbose
