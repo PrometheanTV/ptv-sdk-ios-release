@@ -20,7 +20,6 @@ jobs:
       - name: Deploy to Cocoapods
         env:
           COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
-          #DEVELOPER_DIR: /Applications/Xcode_11.7.app/Contents/Developer
         run: |
           set -eo pipefail
           export LIB_VERSION=${GITHUB_REF:11}
