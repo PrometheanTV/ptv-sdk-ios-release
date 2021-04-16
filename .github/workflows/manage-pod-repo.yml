@@ -1,7 +1,0 @@
-name: Manage Cocoapod Repo
-on: [workflow_dispatch]
-jobs: 
-  Register-Pod-Trunk
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "It works!"
